@@ -16,7 +16,7 @@ function _M.get ()
 
     awful.layout.suit.fair,             -- 6:
 
-    awful.layout.suit.floating,           -- 1:
+--    awful.layout.suit.floating,           -- 1:
 
     awful.layout.suit.spiral,             -- 8:
     awful.layout.suit.spiral.dwindle,     -- 9:

@@ -84,6 +84,8 @@ require("decorations.statusbar")
 -- }}}
 -- Autostart
 awful.spawn("polybar")
+os.execute("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &")
+
 
 
 -- {{{ Rules
